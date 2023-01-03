@@ -6,10 +6,13 @@ import { StalPaginatorModule } from '@stal/paginator';
 		/* add this import only in app module
 		StalEventerModule
 		*/
-		StalPaginatorModule,
 	],
 	providers: [
 
 	],
+	exports: [
+		StalPaginatorModule,
+		
+	]
 })
 export class EngeCommonAppModule { }
