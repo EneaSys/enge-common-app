@@ -1,6 +1,6 @@
 {
   "name": "@enge/common-app",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eneasys/enge-common-app.git"
@@ -13,7 +13,8 @@
   "peerDependencies": {
     "@angular/common": "^14.0.0",
     "@angular/core": "^14.0.0",
-    "@stal/eventer": "^0.0.2"
+    "@stal/eventer": "^0.0.2",
+    "@stal/paginator": "^0.0.3"
   },
   "dependencies": {
     "tslib": "^2.3.0"
