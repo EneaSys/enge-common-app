@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { StalPaginatorModule } from '@stal/paginator';
 
@@ -12,7 +13,7 @@ import { StalPaginatorModule } from '@stal/paginator';
 	],
 	exports: [
 		StalPaginatorModule,
-		
+		CommonModule,
 	]
 })
 export class EngeCommonAppModule { }
