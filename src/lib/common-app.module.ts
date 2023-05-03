@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { StalPaginatorModule } from '@stal/paginator';
 import { ButtonModule } from 'primeng/button';
+import { EngeAppCommonService } from './services/common.service';
 
 @NgModule({
 	imports: [
@@ -10,7 +11,8 @@ import { ButtonModule } from 'primeng/button';
 		*/
 	],
 	providers: [
-
+		EngeAppCommonService,
+		
 	],
 	exports: [
 		StalPaginatorModule,
