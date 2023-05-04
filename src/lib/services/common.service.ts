@@ -7,7 +7,6 @@ import { ActivatedRoute, Router } from "@angular/router";
 })
 export class EngeAppCommonService {
     constructor(
-        public route: ActivatedRoute,
         public router: Router,
         public eventer: StalEventerService,
     ) {}
