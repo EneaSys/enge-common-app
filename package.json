@@ -11,10 +11,10 @@
     "url": "https://stepo.biz"
   },
   "peerDependencies": {
-    "@angular/common": "^14.0.0",
-    "@angular/core": "^14.0.0",
-    "@stal/eventer": "^0.0.2",
-    "@stal/paginator": "^0.0.3"
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0",
+    "@stal/eventer": "^15.0.0",
+    "@stal/paginator": "^15.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
