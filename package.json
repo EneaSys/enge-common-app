@@ -1,6 +1,6 @@
 {
   "name": "@enge/common-app",
-  "version": "14.2.3",
+  "version": "15.0.0-SNAPSHOT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eneasys/enge-common-app.git"
